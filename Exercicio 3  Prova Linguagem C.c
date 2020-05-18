@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-int n[10];
+int n[9];
 int p = 0;
 int i = 0;
 
 int main() {
   printf("Digite 10 numeros \n");
   for(int x=0;x<10;x++){
-  scanf("%i",&n[x]);
+    
+    printf("%iº numero: ",x+1);
+    scanf("%i",&n[x]);
 
     if(n[x] % 2 == 0){
       p++;    
