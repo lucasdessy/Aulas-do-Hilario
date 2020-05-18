@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int n[9];
+int n[10];
 int p = 0;
 int i = 0;
 
